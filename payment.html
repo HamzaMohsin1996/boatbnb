@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no  shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>BnB Yachets</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" href="sass/style-en.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top-bar">
+            <div class="header-bg-blue bg-blue">
+                <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididun
+                </p>
+            </div>
+            <div class="header-grey-clr grey-clr">
+                <p class="small-text">laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="header-wrap">
+            <div class="container">
+                <div class="custom-flex-between">
+                    <div class="left-content">
+                        <div class="logo-wrapper">
+                            <a href="home.html" class="logo-btn"><img src="./images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <a href="javascript:void(0)" class="custom-btn white grey-btn regular">Earn With Us</a>
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./images/user-img.png" alt="">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <p class="header-content small-text">John Cena</p>
+                                </li>
+                                <li><a class="dropdown-item" href="Reservation.html">My Bookings</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Messages</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Notification</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Wishlist</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Setting</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Help</a></li>
+                                <li><a class="dropdown-item" href="home.html">Log Out</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <div class="main-wrapper">
+        <div class="container section-padding payment-method-wrapper">
+                <div class="btn-back">
+                    <a href="boatel-search-details.html" class="back-btn-circle"><i class="fa fa-angle-left"></i></a>
+                    <h4 class="medium">Book a Boatel</h4>
+                </div>
+            <div class="row m-0">
+                <div class="col-md-5 payment-method-left-box py-2">
+                    <h6 class="select-payment-card pb-4">Select Card</h6>
+                    <div class="form-check-radio">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"checked>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          <div class="payment-method-radio-btn">
+                              <h6 class="medium">Jane Joe</h6>
+                              <h6 class="medium">...4589</h6>
+                              <div class="payment-method-radio-img">
+                                  <img src="./images/visa-img.png" alt="">
+                              </div>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="form-check-radio">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            <div class="payment-method-radio-btn">
+                                <h6 class="medium">Jane Joe</h6>
+                                <h6 class="medium">...4589</h6>
+                                <div class="payment-method-radio-img">
+                                    <img src="./images/mastercard-img.png" alt="">
+                                </div>
+                            </div>
+                        </label>
+                      </div>
+                      <div>
+                          <a href="javascript:void(0)" class="underline-blue-link no-underline custom-margin" >+  Add New Card</a>
+                        <div>
+                            <div class="add-card-details" id="add-card-details-div">
+                                <div><div class="custom-input-field" >
+                                    <input type="text" class="custom-input big-input" placeholder="Card Holder Name">
+                                  </div>
+                                </div>
+                                <div><div class="custom-input-field">
+                                    <input type="text" class="custom-input big-input" placeholder="Card Name">
+                                  </div>
+                                </div>
+                                <div><div class="custom-input-field error-msj">
+                                    <input type="number" class="custom-input big-input" placeholder="1234 1234 1234 1234">
+                                  </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div><div class="custom-input-field">
+                                            <input type="text" class="custom-input big-input" placeholder="MM/YY">
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div><div class="custom-input-field">
+                                            <input type="number" class="custom-input big-input" placeholder="CVV">
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="py-3">
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" checked="checked">
+                                        <p class="small-text">Save this card for future transactions.</p>
+                                        <span class="checkmark"></span>
+                                      </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      <div>
+                          <p>By selecting the button below, iagree to the <a href="#" class="underline-blue-link">host's house rules. Airbnb's  Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div>
+                        
+                          <a href="payments-loader.html" class="custom-btn blue d-block custom-margin"data-bs-toggle="modal" data-bs-target="#terms-condition-modal">Confirm and Pay</a>
+                        </div>
+                      <div>
+                          <h6 class="medium-bold mb-3">Cancellation Policy</h6>
+                          <p>Short description about the  host Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. <a href="disclaimer.html" class="custom-btn underline-blue-link no-before-content p-0">Learn more</a></p>
+                      </div>
+                </div>
+                <div class="col-md-7 py-2">
+                    <div class="payment-main-wrap">
+                    <div class="payment-method-card-wrapper">
+                        <div class="payment-method-card">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="payment-method-img">
+                                        <img src="./images/card-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="payment-method-content">
+                                        <p class="px-2">Name of the boatel</p>
+                                        <div class="custom-flex-start">
+                                            <p class="medium px-2">Location:</p>
+                                            <p>Karachi</p>
+                                        </div>
+                                        <div class="custom-flex-start flex-mobile-column">
+                                            <div class="custom-flex-start">
+                                            <p class="medium px-2">Check In:</p>
+                                            <p>31-07-2021</p>
+                                            </div>
+                                            <div class="custom-flex-start">
+                                                <p class="medium px-2">Check Out:</p>
+                                            <p>08-08-2021</p>
+                                            </div>
+                                        </div>
+                                        <div class="custom-flex-start">
+                                            <p class="medium px-2">Bathrooms</p>
+                                            <p>2</p>
+                                            <p class="medium px-2">Bed Rooms</p>
+                                            <p>4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row custom-margin">
+                            <div class="col-12">
+                                <h6 class="medium py-md-3">Price Details</h6>
+                                <div class="custom-flex-between"><p>$ 450  x 2 Night</p> <p>$900.00</p></div>
+                                <div class="custom-flex-between"><p>Service Fee</p> <p>$20.00</p></div>
+                                <div class="custom-flex-between"><p>Total(USD)</p> <p>$920.00</p></div>
+                            </div>
+                        </div>
+                        </div>
+                  
+                    <div class="row justify-content-end">
+                        
+                        <div class="col-12">
+                            <div class="custom-flex-start align-items-start">
+                                <img src="./images/reservation-img.png" alt="">
+                                <div class="ms-2">
+                            <p class="medium">Your reservation won't be confirmed until host accepts your request with in 24 hours</p>
+                               <p>You won't be charged until then.</p>
+                               </div>
+                               </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <footer>
+            <div class="footer-top-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 py-2">
+                            <p class="underline-txt">Top Cities </p>
+                        </div>
+                        <div class="col">
+                            <ul class="footer-links">
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="footer-links">
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="footer-links">
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="footer-links">
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="footer-links">
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5 py-2">
+                            <div class="tagline-wrap">
+                                <h5 class="bold">Tagline that<br> define the compnay</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-7 py-2">
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="footer-links">
+                                        <li><a href="javascript:void(0)" class="underline-link-blk">Become a host</a>
+                                        </li>
+                                        <li><a href="javascript:void(0)" class="underline-link-blk">Become a Service
+                                                Provider</a></li>
+                                        <li><a href="javascript:void(0)" class="underline-link-blk">Become a Captain</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="footer-links">
+                                        <li><a href="javascript:void(0)" class="underline-link-blk">About Us</a></li>
+                                        <li><a href="javascript:void(0)" class="underline-link-blk">Privacy Policy</a>
+                                        </li>
+                                        <li><a href="javascript:void(0)" class="underline-link-blk">Help</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="footer-links">
+                                        <li><a href="javascript:void(0)" class="underline-link-blk">Contact Us</a></li>
+                                        <li><a href="javascript:void(0)" class="underline-link-blk">Terms &
+                                                Conditions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 py-2">
+                            <div class="copy-right-wrap custom-flex-between">
+                                <p>c 2021 copyright</p>
+                                <ul class="social-icons-ul custom-flex-start">
+                                    <li><a href="javascript:void(0)" class="social-media-links"><i
+                                                class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)" class="social-media-links"><i class="fa fa-globe"
+                                                aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)" class="social-media-links"><i class="fa fa-twitter"
+                                                aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)" class="social-media-links"><i
+                                                class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Custom Search bar Modal -->
+        <div class="modal fade custom-modal custom-large-modal" id="filters-modal" tabindex="-1"
+            aria-labelledby="signup-modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header no-border">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card-wrapper">
+                            <div class="custom-tabs-wrapper">
+                              <div class="nav nav-pills custom-tabs-btns" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <button class="underline-link-blk active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fa fa-bolt"></i>Boatel</button>
+                                <button class="underline-link-blk" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fa fa-ship"></i>Charter</button>
+                                <button class="underline-link-blk" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fa fa-calendar"></i>Event</button>
+                              </div>
+                              <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                  <div> Boatel</div>
+                                  <div class="custom-flex"><a href="javascript:void(0)" class="custom-btn blue"  data-bs-toggle="modal" data-bs-target="#more-filters-modal"  data-bs-dismiss="modal" aria-label="Close">Search</a></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                  Charter
+                                  <div class="custom-flex"><a href="javascript:void(0)" class="custom-btn blue"  data-bs-toggle="modal" data-bs-target="#more-filters-modal"  data-bs-dismiss="modal" aria-label="Close">Search</a></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                  Event
+                                  <div class="custom-flex"><a href="javascript:void(0)" class="custom-btn blue"  data-bs-toggle="modal" data-bs-target="#more-filters-modal"  data-bs-dismiss="modal" aria-label="Close">Search</a></div>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+            <!--More Filters Modal -->
+            <div class="modal fade custom-modal custom-small-modal" id="more-filters-modal" tabindex="-1"
+            aria-labelledby="signup-modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header no-border">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="custom-text-center">
+                            <h4 class="bold">More Filters</h4>
+                           <p class="bold text-left">Bedrooms</p>
+                           <div class="custom-flex-between py-2">
+                               <p>Number of Bedrooms</p>
+                               <div class="boatel-counter">
+                                <div class="center container">
+                                      <div class="counter-button">
+                                          <button id="minus-btn">-</button>
+                                      </div>
+                                      <div class="number">
+                                          <p id="count">0</p>
+                                      </div>
+                                      <div class="counter-button">
+                                          <button id="plus-btn">+</button>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="custom-flex-between py-2">
+                                <p>Bathrooms</p>
+                                <div class="boatel-counter">
+                                 <div class="center container">
+                                       <div class="counter-button">
+                                           <button id="minus-btn">-</button>
+                                       </div>
+                                       <div class="number">
+                                           <p id="count">0</p>
+                                       </div>
+                                       <div class="counter-button">
+                                           <button id="plus-btn">+</button>
+                                     </div>
+                                   </div>
+                               </div>
+                             </div>
+                             <div class="amenties-wrapper">
+                             <p class="bold text-left">Amenities</p>
+                             <div class="row">
+                                 <div class="col-sm-6 py-2">
+                                    <label class="custom-checkbox my-4">
+                                        <input type="checkbox" checked="checked">
+                                        <p class="small-text">Kitchen</p>
+                                        <span class="checkmark"></span>
+                                      </label>
+                                      <label class="custom-checkbox my-4">
+                                        <input type="checkbox" checked="checked">
+                                        <p class="small-text">Kitchen</p>
+                                        <span class="checkmark"></span>
+                                      </label>
+                                      <label class="custom-checkbox my-4">
+                                        <input type="checkbox" checked="checked">
+                                        <p class="small-text">Kitchen</p>
+                                        <span class="checkmark"></span>
+                                      </label>
+                                      <label class="custom-checkbox my-4">
+                                        <input type="checkbox" checked="checked">
+                                        <p class="small-text">Kitchen</p>
+                                        <span class="checkmark"></span>
+                                      </label>
+                                 </div>
+                                 <div class="col-sm-6 py-2">
+                                    <label class="custom-checkbox my-4">
+                                        <input type="checkbox" checked="checked">
+                                        <p class="small-text">Kitchen</p>
+                                        <span class="checkmark"></span>
+                                      </label>
+                                      <label class="custom-checkbox my-4">
+                                        <input type="checkbox" checked="checked">
+                                        <p class="small-text">Kitchen</p>
+                                        <span class="checkmark"></span>
+                                      </label>
+                                      <label class="custom-checkbox my-4">
+                                        <input type="checkbox" checked="checked">
+                                        <p class="small-text">Kitchen</p>
+                                        <span class="checkmark"></span>
+                                      </label>
+                                      <label class="custom-checkbox my-4">
+                                        <input type="checkbox" checked="checked">
+                                        <p class="small-text">Kitchen</p>
+                                        <span class="checkmark"></span>
+                                      </label>
+                                 </div>
+                                 <div class="col-sm-12 pt-4">
+                                     <button class="custom-btn blue"  data-bs-dismiss="modal" >Save</button>
+                                 </div>
+                             </div>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>   
+            <div>
+                  <!--Terms and Condition Modal -->
+                <div class="modal fade custom-modal" id="terms-condition-modal" tabindex="-1" aria-labelledby="terms-condition-modal" aria-hidden="true">
+                  <div class="modal-dialog modal-xl modal-dialog-centered ">
+                    <div class="modal-content">
+                      <div class="modal-header no-border">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="custom-text-center">
+                            <h4 class="medium text-center">Privacy Policy</h4>
+                          <div class="py-2">
+                          <p>Short description about the  host Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                      <ul class="custom-ul">
+                          <li> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis velit eget dapibus convallis. Donec non massa vitae metus consequat ultrices nec sed nulla. Nullam volutpat vitae</p>
+                          </li>
+                          <li>     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis velit eget dapibus convallis. Donec non massa vitae metus consequat ultrices nec sed nulla. Nullam volutpat vitae</p> 
+                          </li>
+                          <li>     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis velit eget dapibus convallis. Donec non massa vitae metus consequat ultrices nec sed nulla. Nullam volutpat vitae</p> 
+                          </li>
+                          <li>     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis velit eget dapibus convallis. Donec non massa vitae metus consequat ultrices nec sed nulla. Nullam volutpat vitae</p> 
+                          </li>
+                          <li>     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis velit eget dapibus convallis. Donec non massa vitae metus consequat ultrices nec sed nulla. Nullam volutpat vitae</p> 
+                          </li>
+                          <li>     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis velit eget dapibus convallis. Donec non massa vitae metus consequat ultrices nec sed nulla. Nullam volutpat vitae</p> 
+                          </li>
+                          <li>     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis velit eget dapibus convallis. Donec non massa vitae metus consequat ultrices nec sed nulla. Nullam volutpat vitae</p> 
+                          </li>
+                          <li>     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis velit eget dapibus convallis. Donec non massa vitae metus consequat ultrices nec sed nulla. Nullam volutpat vitae</p> 
+                          </li>
+                      </ul>
+                      </div>
+                      <div class="py-4 text-center">
+                      <a href="payments-loader.html" class="custom-btn blue big-btn" >Back</a>
+                      </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>     
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"
+            integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" ></script>
+        <script src="js/select.js"></script>
+        <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>

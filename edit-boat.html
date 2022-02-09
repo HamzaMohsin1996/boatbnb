@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no  shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>BnB Yachets</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet"
+        type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" href="sass/style-en.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-top-bar">
+      <div class="header-bg-blue bg-blue">
+        <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun
+        </p>
+      </div>
+      <div class="header-grey-clr grey-clr">
+        <p class="small-text">laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+    <div class="header-wrap">
+      <div class="container">
+        <div class="custom-flex-between">
+          <div class="left-content">
+            <div class="logo-wrapper">
+              <a href="home.html" class="logo-btn"><img src="./images/logo.png" alt=""></a>
+            </div>
+          </div>
+          <div class="center-content">
+            <a href="dashboard.html" class="underline-link-blk " >
+                <span>
+                    <svg id="dashboard_black_24dp" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path id="Path_20946" data-name="Path 20946" d="M0,0H24V24H0Z" fill="none"/>
+                    <path id="Path_20947" data-name="Path 20947" d="M19,5V7H15V5h4M9,5v6H5V5H9m10,8v6H15V13h4M9,17v2H5V17H9M21,3H13V9h8ZM11,3H3V13h8Zm10,8H13V21h8ZM11,15H3v6h8Z" fill="#777"/>
+                    </svg>
+                    Dashboard
+                </span>
+            </a>
+            <a href="Service-provider.html" class="underline-link-blk" >
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19.83" height="17" viewBox="0 0 19.83 17">
+                        <g id="Group_8041" data-name="Group 8041" transform="translate(-2 -4)">
+                          <g id="Group_8040" data-name="Group 8040">
+                            <path id="Path_21113" data-name="Path 21113" d="M4,18v-.65a.946.946,0,0,1,.41-.81A10.889,10.889,0,0,1,10,15a.22.22,0,0,1,.08.01,6.886,6.886,0,0,1,.59-1.98c-.22-.02-.44-.03-.67-.03a12.876,12.876,0,0,0-6.61,1.82A2.922,2.922,0,0,0,2,17.35V20h9.26a7.133,7.133,0,0,1-.97-2Z" fill="#acacac"/>
+                            <path id="Path_21114" data-name="Path 21114" d="M10,12A4,4,0,1,0,6,8,4,4,0,0,0,10,12Zm0-6A2,2,0,1,1,8,8,2.006,2.006,0,0,1,10,6Z" fill="#acacac"/>
+                            <path id="Path_21115" data-name="Path 21115" d="M20.75,16a4.338,4.338,0,0,0-.06-.63l1.14-1.01-1-1.73-1.45.49a3.647,3.647,0,0,0-1.08-.63L18,11H16l-.3,1.49a3.647,3.647,0,0,0-1.08.63l-1.45-.49-1,1.73,1.14,1.01a4.338,4.338,0,0,0-.06.63,4.338,4.338,0,0,0,.06.63l-1.14,1.01,1,1.73,1.45-.49a3.647,3.647,0,0,0,1.08.63L16,21h2l.3-1.49a3.647,3.647,0,0,0,1.08-.63l1.45.49,1-1.73-1.14-1.01A4.338,4.338,0,0,0,20.75,16ZM17,18a2,2,0,1,1,2-2A2.006,2.006,0,0,1,17,18Z" fill="#acacac"/>
+                          </g>
+                        </g>
+                      </svg>                      
+                    Service Provider
+                </span>
+            </a>
+            <a href="javascript:void(0)" class="underline-link-blk" >
+                <span>
+                    <svg id="mark_chat_unread_black_24dp" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <rect id="Rectangle_3109" data-name="Rectangle 3109" width="24" height="24" fill="none"/>
+                        <path id="Path_21021" data-name="Path 21021" d="M20.409,6.425v8.3a1.846,1.846,0,0,1-1.841,1.841H5.682L2,20.25V3.682A1.846,1.846,0,0,1,3.841,1.841h9.3a5.033,5.033,0,0,0-.092.92,5.033,5.033,0,0,0,.092.92h-9.3V14.727H18.568V7.272A4.558,4.558,0,0,0,20.409,6.425ZM14.886,2.761A2.761,2.761,0,1,0,17.648,0,2.758,2.758,0,0,0,14.886,2.761Z" transform="translate(0.541 1.155)" fill="#acacac"/>
+                      </svg>
+                    Inbox
+                </span>
+            </a>
+            <a href="javascript:void(0)" class="underline-link-blk" >
+                <span>
+                    <svg id="calendar_today_black_24dp_1_" data-name="calendar_today_black_24dp (1)" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path id="Path_20951" data-name="Path 20951" d="M0,0H24V24H0Z" fill="none"/>
+                        <path id="Path_20952" data-name="Path 20952" d="M17.953,2.773h-.886V1H15.294V2.773H6.431V1H4.659V2.773H3.773A1.778,1.778,0,0,0,2,4.545v14.18A1.778,1.778,0,0,0,3.773,20.5h14.18a1.778,1.778,0,0,0,1.773-1.773V4.545A1.778,1.778,0,0,0,17.953,2.773Zm0,15.953H3.773V8.976h14.18Zm0-11.522H3.773V4.545h14.18Z" transform="translate(1.137 1.502)" fill="#acacac"/>
+                      </svg>
+                    Calender
+                </span>
+            </a>
+            <a href="Reservation.html" class="underline-link-blk" >
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+                        <defs>
+                          <clipPath id="clip-path">
+                            <rect id="Rectangle_3058" data-name="Rectangle 3058" width="24" height="24" fill="#acacac" stroke="#707070" stroke-width="1"/>
+                          </clipPath>
+                        </defs>
+                        <g id="Mask_Group_6553" data-name="Mask Group 6553" clip-path="url(#clip-path)">
+                          <g id="reserved_1_" data-name="reserved (1)" transform="translate(2.535 5.018)">
+                            <g id="Group_7730" data-name="Group 7730">
+                              <g id="Group_7729" data-name="Group 7729">
+                                <path id="Path_20953" data-name="Path 20953" d="M18.92,18.218,17.464,6.2a.831.831,0,0,0-.719-.818H2.184a.831.831,0,0,0-.719.818L.009,18.218A1.218,1.218,0,0,0,.174,19a.671.671,0,0,0,.555.343H18.2A.671.671,0,0,0,18.756,19,1.217,1.217,0,0,0,18.92,18.218ZM1.584,17.4l.6-4.985.6,4.985Zm2.683,0h0L3.047,7.332H16.126L17.346,17.4Z" transform="translate(0 -5.384)" fill="#acacac"/>
+                              </g>
+                            </g>
+                            <g id="Group_7732" data-name="Group 7732" transform="translate(5.096 6.008)">
+                              <g id="Group_7731" data-name="Group 7731">
+                                <path id="Path_20954" data-name="Path 20954" d="M15.926,11.077H7.19c-.4,0-.728.436-.728.974s.326.974.728.974h8.737c.4,0,.728-.436.728-.974S16.328,11.077,15.926,11.077Z" transform="translate(-6.462 -11.077)" fill="#acacac"/>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                      
+                    Reservation
+                </span>
+            </a>
+            <a href="Listing.html" class="underline-link-blk" >
+                <span>
+                    <svg id="dns_black_24dp" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path id="Path_20955" data-name="Path 20955" d="M0,0H24V24H0Z" fill="none"/>
+                        <path id="Path_20956" data-name="Path 20956" d="M19,15v4H5V15H19m1-2H4a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1H20a1,1,0,0,0,1-1V14A1,1,0,0,0,20,13ZM7,18.5A1.5,1.5,0,1,1,8.5,17,1.5,1.5,0,0,1,7,18.5ZM19,5V9H5V5H19m1-2H4A1,1,0,0,0,3,4v6a1,1,0,0,0,1,1H20a1,1,0,0,0,1-1V4A1,1,0,0,0,20,3ZM7,8.5A1.5,1.5,0,1,1,8.5,7,1.5,1.5,0,0,1,7,8.5Z" fill="#acacac"/>
+                      </svg>
+                      
+                    Listing
+                </span>
+            </a>
+            <div class="dropdown custom-dropdown borderless-dropdown">
+                <button class="dropdown-btn dropdown-toggle blk-clr underline-link-blk" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
+                        <defs>
+                          <clipPath id="clip-path">
+                            <rect id="Rectangle_3100" data-name="Rectangle 3100" width="33" height="33" fill="#acacac" stroke="#707070" stroke-width="1"/>
+                          </clipPath>
+                        </defs>
+                        <g id="Mask_Group_6556" data-name="Mask Group 6556" clip-path="url(#clip-path)">
+                          <g id="create" transform="translate(4.756 4.756)">
+                            <path id="Path_21001" data-name="Path 21001" d="M4.56,25.208a.688.688,0,0,0,.8.8l5.208-.912L5.471,20Z" transform="translate(-1.311 -5.765)" fill="#acacac"/>
+                            <path id="Path_21002" data-name="Path 21002" d="M16.312,6.343a.688.688,0,0,0-.973,0L6.884,14.8l2.294,2.294L18.119,8.15Z" transform="translate(-1.984 -1.77)" fill="#acacac"/>
+                            <path id="Path_21003" data-name="Path 21003" d="M22.222,12.137l-1.807-1.807-8.942,8.942,2.293,2.293,8.455-8.455a.688.688,0,0,0,0-.973Z" transform="translate(-3.307 -2.978)" fill="#acacac"/>
+                            <path id="Path_21004" data-name="Path 21004" d="M20.049,3.44A11.746,11.746,0,0,0,2.04,18.364l.368-2.1a10.371,10.371,0,1,1,9.336,5.849.688.688,0,0,0,0,1.376,11.744,11.744,0,0,0,8.3-20.049Z" transform="translate(0)" fill="#acacac"/>
+                          </g>
+                        </g>
+                      </svg>
+                      
+                    Create
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><p class="header-content small-text">John Cena</p></li>
+                  <li><a class="dropdown-item" href="Reservation.html">My Bookings</a></li>
+                  <li><a class="dropdown-item" href="javascript:void(0)">Messages</a></li>
+                  <li><a class="dropdown-item" href="javascript:void(0)">Notification</a></li>
+                  <li><a class="dropdown-item" href="javascript:void(0)">Wishlist</a></li>
+                  <li><a class="dropdown-item" href="javascript:void(0)">Setting</a></li>
+                  <li><a class="dropdown-item" href="javascript:void(0)">Help</a></li>
+                  <li><a class="dropdown-item" href="home.html">Log Out</a></li>
+        
+                </ul>
+              </div>
+          </div>
+          <div class="right-content">
+            <a href="marketing.html" class="custom-btn white grey-btn regular">Switch to User</a>
+            <div class="dropdown custom-dropdown">
+              <button class="dropdown-btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./images/user-img.png" alt="" >
+                <i class="fa fa-bars"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><p class="header-content small-text">John Cena</p></li>
+                <li><a class="dropdown-item" href="Reservation.html">My Bookings</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Messages</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Notification</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Wishlist</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Setting</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)">Help</a></li>
+                <li><a class="dropdown-item" href="home.html">Log Out</a></li>
+      
+              </ul>
+            </div>
+            <button class="custom-btn btn-mobile"><i class="fa fa-bars"></i></button>
+            </div>
+        </div>
+      </div>
+  </header>
+  <div class="main-wrapper">
+      <div class="container">
+    <div class="listing-main-wrapper edit-boat section-padding">
+        <div class="custom-flex-between mb-3">
+          <h4 class="medium">Edit Boat Features</h4> 
+          </div>
+            <div class="row">
+                <div class="col-md-6 py-2">
+                    <div class="custom-input-field">
+                        <label>Boat Title</label>
+                        <input class="custom-input" placeholder="Endless Summer">
+                      </div>
+                      <div class="custom-input-field ">
+                        <label>About</label>
+                        <textarea class="custom-input" id="exampleFormControlTextarea1" rows="4">Short description about the boat Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</textarea>
+                      </div>
+                      <div class="custom-input-field ">
+                        <label>Guests Favorites</label>
+                        <div class="custom-card">
+                        <div class="row w-100">
+                          <div class="col-sm-6 py-2">
+                            <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <p class="small-text">Portable heater</p>
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="col-sm-6 py-2">
+                            <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <p class="small-text">Hot Tub</p>
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="col-sm-6 py-2">
+                            <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <p class="small-text">Standup Paddle</p>
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="col-sm-6 py-2">
+                            <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <p class="small-text">Gym</p>
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="col-sm-6 py-2">
+                            <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <p class="small-text">Kayak</p>
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="col-sm-12 py-2">
+                            <button class="custom-blue-btn"><i class="fa fa-plus"></i>Add more</button>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="custom-input-field ">
+                        <label>Let guests know what your boat offers</label>
+                        <div class="custom-card">
+                        <div class="row w-100">
+                          <div class="col-sm-6 py-2">
+                            <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <p class="small-text">Kitchen</p>
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="col-sm-6 py-2">
+                            <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <p class="small-text">Sound System</p>
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="col-sm-6 py-2">
+                            <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <p class="small-text">Wifi</p>
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="col-sm-6 py-2">
+                            <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <p class="small-text">Fridge</p>
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="col-sm-6 py-2">
+                            <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <p class="small-text">Bluetooth</p>
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="col-sm-6 py-2">
+                            <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <p class="small-text">HVAC</p>
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                          <div class="col-sm-6 py-2">
+                            <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <p class="small-text">Cable/Sat TV</p>
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                        
+                        </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row py-2">
+              <div class="image-gallery-bannner bg-none blck-color">
+                    <div class="image-gallery-head-content custom-flex-between">
+                      <div class="">
+                        <p class="medium">Edit Pictures</p>
+                        <p class="small-text light grey">Drag to reorder</p>
+                        </div>
+                        <button class="custom-btn grey-clr">Add More</button>
+                    </div>
+                    <div class="image-gallery-collage">
+                        <div class="row">
+                            <div class="col-md-6 py-2">
+                                <div class="gallery-img-large custom-image-prev">
+                                    <img src="./images/banner-bg-1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="gallery-images-small-wrapper">
+                                    <div class="row">
+                                        <div class="col-sm-6 py-2">
+                                            <div class="gallery-images-small custom-image-prev">
+                                                <img src="./images/banner-bg-2.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 py-2">
+                                            <div class="gallery-images-small custom-image-prev">
+                                                <img src="./images/banner-bg-3.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 py-2">
+                                            <div class="gallery-images-small custom-image-prev">
+                                                <img src="./images/banner-bg-4.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 py-2">
+                                            <div class="gallery-images-small custom-image-prev">
+                                                <img src="./images/banner-bg-5.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="custom-flex-end">
+                <button class="custom-btn outline-blue-clr me-sm-2">Cancel</button>
+                <button class="custom-btn blue">Save</button>
+
+              </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <footer>
+      <div class="footer-top-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 py-2">
+              <p class="underline-txt">Top Cities </p>
+            </div>
+            <div class="col">
+              <ul class="footer-links">
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="footer-links">
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="footer-links">
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="footer-links">
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="footer-links">
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+                <li><a href="javascript:void(0)" class="underline-link-blk">dolore magna</a></li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 py-2">
+                  <div class="tagline-wrap">
+                    <h5 class="bold">Tagline that<br> define the compnay</h5>
+                  </div>
+              </div>
+              <div class="col-md-7 py-2">
+                <div class="row">
+                  <div class="col">
+                    <ul class="footer-links">
+                      <li><a href="javascript:void(0)" class="underline-link-blk">Become a host</a></li>
+                      <li><a href="Service-provider.html" class="underline-link-blk">Become a Service Provider</a></li>
+                      <li><a href="javascript:void(0)" class="underline-link-blk">Become a Captain</a></li>
+                    </ul>
+                  </div>
+                  <div class="col">
+                    <ul class="footer-links">
+                      <li><a href="javascript:void(0)" class="underline-link-blk">About Us</a></li>
+                      <li><a href="javascript:void(0)" class="underline-link-blk">Privacy Policy</a></li>
+                      <li><a href="javascript:void(0)" class="underline-link-blk">Help</a></li>
+                    </ul>
+                  </div>
+                  <div class="col">
+                    <ul class="footer-links">
+                      <li><a href="javascript:void(0)" class="underline-link-blk">Contact Us</a></li>
+                      <li><a href="javascript:void(0)" class="underline-link-blk">Terms & Conditions</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 py-2">
+                <div class="copy-right-wrap custom-flex-between">
+                  <p>c 2021 copyright</p>
+                  <ul class="social-icons-ul custom-flex-start">
+                    <li><a href="javascript:void(0)" class="social-media-links"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="javascript:void(0)" class="social-media-links"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+                    <li><a href="javascript:void(0)" class="social-media-links"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="javascript:void(0)" class="social-media-links"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+ 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"
+      integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" ></script>
+  <script src="js/select.js"></script>
+  <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
